@@ -192,6 +192,7 @@ static void set_active_framebuffer(unsigned n)
 
 void gr_flip(void)
 {
+	
 	GGLContext *gl = gr_context;
 
 #ifdef BOARD_HAS_FLIPPED_SCREEN
